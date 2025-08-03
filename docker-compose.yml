@@ -1,0 +1,55 @@
+services:
+  config-server:
+    build: ./config-server/config-server
+    mem_limit: 512m
+    ports:
+    - "8081:8081"
+    networks:
+    - ciudadeshotel-network
+    volumes:
+      - ./config-server:/config-server
+
+  eureka-sv:  
+    build: ./eureka-sv/eureka-sv
+    mem_limit: 512m
+    ports:
+      - "8761:8761"
+    networks: 
+      - ciudadeshotel-network
+
+  api-gateway:
+    depends_on: 
+      - config-server
+      - eureka-sv
+    build: ./api-gateway/api-gateway
+    mem_limit: 512m
+    ports: 
+    - "443:443"
+    networks:
+    - ciudadeshotel-network
+  
+
+  cities-service:   
+    depends_on: 
+      - config-server
+      - eureka-sv
+    build: ./cities-service_base/cities-service
+    mem_limit: 512m
+    ports:
+      - "8082:8082"
+    networks: 
+      - ciudadeshotel-network
+
+  hotels-service:  
+    depends_on: 
+      - config-server
+      - eureka-sv
+    build: ./hotels-service_base/hotels-service
+    mem_limit: 512m
+    ports:
+      - "8083:8083"
+    networks: 
+      - ciudadeshotel-network
+
+networks:
+  ciudadeshotel-network:

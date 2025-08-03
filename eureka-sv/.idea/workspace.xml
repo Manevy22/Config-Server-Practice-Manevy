@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fa99baf-d012-4cd8-9ef4-c2972dca6b04" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../hotels-service_base/hotels-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cities-service_base/cities-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/config-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/config-server.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/src/main/java/com/todocodeacademy/config_server/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/config-server/src/main/java/com/todocodeacademy/config_server/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sv/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hotels-service_base/hotels-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hotels-service_base/hotels-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2xmzNJOVmzMuXbEOl3L36MY7iXH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EurekaSvApplication.executor": "Run",
+    "Maven.eureka-sv [clean].executor": "Run",
+    "Maven.eureka-sv [compile].executor": "Run",
+    "Maven.eureka-sv [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Virginia/Documents/NetBeansProjects/Config-Server-Practice/eureka-sv"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fa99baf-d012-4cd8-9ef4-c2972dca6b04" name="Changes" comment="" />
+      <created>1748557995851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748557995851</updated>
+    </task>
+    <servers />
+  </component>
+</project>
