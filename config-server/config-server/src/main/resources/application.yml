@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Manevy22/Config-Server-Practice.git
+          uri: https://github.com/Manevy22/Config-Server-Practice-Manevy.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
