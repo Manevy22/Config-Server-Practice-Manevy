@@ -10,5 +10,5 @@ spring:
         git:
           uri: https://github.com/Manevy22/Config-Server-Practice.git
           searchPaths: config-data
-          username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
+          username: Manevy22
+          password: JoseFinaPatitas2024
