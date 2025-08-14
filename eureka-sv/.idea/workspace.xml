@@ -4,67 +4,145 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fa99baf-d012-4cd8-9ef4-c2972dca6b04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hotels-service_base/hotels-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cities-service_base/cities-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-data/config-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/config-server.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-server/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-server/config-server/src/main/java/com/todocodeacademy/config_server/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/config-server/src/main/java/com/todocodeacademy/config_server/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-server/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-sv/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sv/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hotels-service_base/hotels-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hotels-service_base/hotels-service/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="517b83dc-151b-4a1f-b18d-d09728229ee8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/src/main/java/com/todocodeacademy/api_gateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/api-gateway/src/test/java/com/todocodeacademy/api_gateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/.idea/cities-service_base.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/cities-service_base.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/java/com/todocodeacademy/citiesservice/CitiesServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/java/com/todocodeacademy/citiesservice/controller/CitiesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/java/com/todocodeacademy/citiesservice/dto/CityDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/java/com/todocodeacademy/citiesservice/dto/HotelDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/java/com/todocodeacademy/citiesservice/model/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/java/com/todocodeacademy/citiesservice/repository/IHotelsAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/java/com/todocodeacademy/citiesservice/service/CityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/java/com/todocodeacademy/citiesservice/service/ICityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities-service_base/cities-service/src/test/java/com/todocodeacademy/citiesservice/CitiesServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/cities-service_base.YML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/hotels-service_base.YML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/src/main/java/com/todocodeacademy/config_server/ConfigServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/config-server/src/test/java/com/todocodeacademy/config_server/ConfigServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv/src/main/java/com/todocodeacademy/eureka_sv/EurekaSvApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv/src/test/java/com/todocodeacademy/eureka_sv/EurekaSvApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/src/main/java/com/todocodeacademy/hotelsservice/HotelsServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/src/main/java/com/todocodeacademy/hotelsservice/controller/HotelsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/src/main/java/com/todocodeacademy/hotelsservice/model/Hotel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/src/main/java/com/todocodeacademy/hotelsservice/service/HotelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/src/main/java/com/todocodeacademy/hotelsservice/service/IHotelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotels-service_base/hotels-service/src/test/java/com/todocodeacademy/hotelsservice/HotelsServiceApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Dockerfile" />
-      </list>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2xmzNJOVmzMuXbEOl3L36MY7iXH" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="30ZRDxC2T4Zzr1Z6VIpLqHNFfYA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EurekaSvApplication.executor": "Run",
-    "Maven.eureka-sv [clean].executor": "Run",
-    "Maven.eureka-sv [compile].executor": "Run",
-    "Maven.eureka-sv [install].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Virginia/Documents/NetBeansProjects/Config-Server-Practice/eureka-sv"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EurekaSvApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eureka-sv [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eureka-sv [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eureka-sv [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="EurekaSvApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.todocodeacademy.eureka_sv.EurekaSvApplication" />
+      <module name="eureka-sv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.todocodeacademy.eureka_sv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EurekaSvApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1fa99baf-d012-4cd8-9ef4-c2972dca6b04" name="Changes" comment="" />
-      <created>1748557995851</created>
+      <changelist id="517b83dc-151b-4a1f-b18d-d09728229ee8" name="Changes" comment="" />
+      <created>1753832992702</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1748557995851</updated>
+      <updated>1753832992702</updated>
     </task>
     <servers />
   </component>

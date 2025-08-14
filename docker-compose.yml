@@ -1,6 +1,6 @@
 services:
   config-server:
-    build: ./config-server/config-server
+    build: ./config-server
     mem_limit: 512m
     ports:
     - "8081:8081"
@@ -10,7 +10,7 @@ services:
       - ./config-server:/config-server
 
   eureka-sv:  
-    build: ./eureka-sv/eureka-sv
+    build: ./eureka-sv
     mem_limit: 512m
     ports:
       - "8761:8761"
@@ -21,7 +21,7 @@ services:
     depends_on: 
       - config-server
       - eureka-sv
-    build: ./api-gateway/api-gateway
+    build: ./api-gateway
     mem_limit: 512m
     ports: 
     - "443:443"
@@ -33,7 +33,7 @@ services:
     depends_on: 
       - config-server
       - eureka-sv
-    build: ./cities-service_base/cities-service
+    build: ./cities-service
     mem_limit: 512m
     ports:
       - "8082:8082"
@@ -44,7 +44,7 @@ services:
     depends_on: 
       - config-server
       - eureka-sv
-    build: ./hotels-service_base/hotels-service
+    build: ./hotels-service
     mem_limit: 512m
     ports:
       - "8083:8083"
