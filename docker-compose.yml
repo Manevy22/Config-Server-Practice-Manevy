@@ -1,40 +1,35 @@
 services:
   config-server:
     build: ./config-server
-    mem_limit: 512m
     ports:
-    - "8081:8081"
+      - "8081:8081"
     networks:
-    - ciudadeshotel-network
-    volumes:
-      - ./config-server:/config-server
+      - ciudadeshotel-network
+  
 
   eureka-sv:  
     build: ./eureka-sv
-    mem_limit: 512m
     ports:
       - "8761:8761"
     networks: 
       - ciudadeshotel-network
+   
 
   api-gateway:
     depends_on: 
-      - config-server
-      - eureka-sv
+      - config-server  # Necesita config primero
+      - eureka-sv      # Luego se registra en Eureka
     build: ./api-gateway
-    mem_limit: 512m
     ports: 
-    - "443:443"
+      - "443:443"
     networks:
-    - ciudadeshotel-network
-  
+      - ciudadeshotel-network
 
   cities-service:   
     depends_on: 
-      - config-server
-      - eureka-sv
+      - config-server  # Primero configuración
+      - eureka-sv     # Luego registro
     build: ./cities-service
-    mem_limit: 512m
     ports:
       - "8082:8082"
     networks: 
@@ -45,7 +40,6 @@ services:
       - config-server
       - eureka-sv
     build: ./hotels-service
-    mem_limit: 512m
     ports:
       - "8083:8083"
     networks: 
