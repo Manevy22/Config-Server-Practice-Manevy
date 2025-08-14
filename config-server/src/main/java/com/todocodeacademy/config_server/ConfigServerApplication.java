@@ -8,8 +8,6 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 //Anotation para habilitar nuestro servidor de configuraciones
 @EnableConfigServer
-//Anotation para habilitar que EurekaServer nos encuentre
-@EnableDiscoveryClient
 
 public class ConfigServerApplication {
 
