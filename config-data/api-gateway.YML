@@ -12,7 +12,4 @@ cloud:
 server:
   port: 443  # puerto gateway standard     
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761
+
